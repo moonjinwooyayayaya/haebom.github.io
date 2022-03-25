@@ -24,13 +24,13 @@
   /* 상단 배너 */
   /* 상단 배너 배경 색 */
   /* --top-banner-bg: var(--body-bg); */
-  --top-banner-bg: #000000;
+  --top-banner-bg: #FDF6FF;
   /* 상단 배너 글자 색 */
-  --top-banner-font: #ffffff;
+  --top-banner-font: #000000;
 
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
-  --cta-button-bg: #01c0e2;
+  --cta-button-bg: #BD00FF;
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -69,6 +69,7 @@
   --service-card-title-font: var(--section-card-title-font);
   /* 카드 설명 색 */
   --service-card-subtitle-font: var(--section-card-subtitle-font);
+  
 
   /* Product */
   /* 배경 색 */
@@ -88,18 +89,6 @@
   /* 글자 색 */
   --tag-font: #737373;
   
-  /* Team */
-  /* 배경 색 */
-  --team-title-bg: var(--section-title-bg);
-  /* 글자 색 */
-  --team-title-font: var(--section-title-font);
-  /* 카드 제목 색 */
-  --team-card-bg: var(--section-card-bg);
-  /* 카드 설명 색 */
-  --team-card-title-font: var(--section-card-title-font);
-  /* 카드 설명 색 */
-  --team-card-subtitle-font: var(--section-card-subtitle-font);
-
   /* 하단 경계선 색 */
   --footer-border-top: #d4d4d4;
   /* 하단 바 */
@@ -172,11 +161,18 @@ nav {
   font-size: 14px;
 }
 
+
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.second_middle {
+  text-align: center;
+  line-height: 150%;
 }
 
 .nav {
@@ -189,7 +185,7 @@ nav {
 }
 
 .top-banner {
-  height: 400px;
+  height: 440px;
   background: var(--top-banner-bg);
   color: var(--top-banner-font);
   display: flex;
@@ -225,12 +221,18 @@ nav {
   line-height: 24px;
 }
 
+
+.second__subtitle {
+  font-size: 16px;
+  font-weight:bolder;
+}
+
 .top-banner__cta-button {
   margin-top: 67px;
   background: var(--cta-banner-button-bg);
   color: var(--cta-banner-button-font);
   width: 310px;
-  height: 67px;
+  height: 64px;
   font-size: 20px;
   border-radius: 6px;
 }
@@ -243,6 +245,10 @@ nav {
 
 /* 각 섹션 */
 
+.middle{
+  margin: 75px 24px 0px 24px;
+}
+
 .container {
   margin: 75px 24px 0px 24px;
 }
@@ -254,6 +260,13 @@ nav {
 
 #service-section > .grid-3fr > .card__ {
   background-color: var(--service-card-bg);
+  border: 1px solid #F1F3F5;
+  box-sizing: border-box;
+
+/* 그림자 */
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.08), 0px -4px 16px 
+rgba(0, 0, 0, 0.03);
+border-radius: 8px;
 }
 
 #service-section > .grid-3fr > .card__ > .card__title {
@@ -345,12 +358,14 @@ nav {
   font-size: 20px;
   line-height: 27.5px;
   padding: 2px 0px;
+  margin-left: 10px;
   margin-bottom: 4px;
 }
 .card__subtitle {
   font-size: 16px;
   line-height: 24px;
   padding: 2px 0px;
+  margin-left: 10px;
   margin-bottom: 4px;
 }
 
