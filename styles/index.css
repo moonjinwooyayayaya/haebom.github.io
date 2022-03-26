@@ -173,6 +173,7 @@ nav {
 .second_middle {
   text-align: center;
   line-height: 150%;
+  font-size: 18px;
 }
 
 .nav {
@@ -185,7 +186,7 @@ nav {
 }
 
 .top-banner {
-  height: 440px;
+  height: 460px;
   background: var(--top-banner-bg);
   color: var(--top-banner-font);
   display: flex;
@@ -193,7 +194,7 @@ nav {
 
 /* 탑배너 */
 .top-banner__content {
-  margin: 123px 137px 48px 107px;
+  margin: 100px 0px 60px 107px;
 }
 
 .top-banner__right {
@@ -212,13 +213,13 @@ nav {
 }
 
 .top-banner__title {
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 32px;
+  line-height: 140%;
 }
 
 .top-banner__subtitle {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
 }
 
 
@@ -238,15 +239,16 @@ nav {
 }
 
 .top-banner__image {
-  width: 400px;
-  height: 400px;
   object-fit: cover;
+  width: 340px;
+  height: 340px;
+  margin: 60px 60px 60px 0px;
 }
 
 /* 각 섹션 */
 
-.middle{
-  margin: 75px 24px 0px 24px;
+.no2dan{
+  margin: 120px 0px 0px 24px;
 }
 
 .container {
@@ -329,9 +331,9 @@ border-radius: 8px;
 }
 
 .section-title__sub {
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 49px;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 24px;
 }
 
 .grid-3fr {
@@ -343,29 +345,30 @@ border-radius: 8px;
 .grid-4fr {
   display: grid;
   gap: 24px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 370px 370px 370px;
 }
 
 .card__image {
-  width: 100%;
-  height: 230px;
+  width: 106px;
+  height: 106px;
   object-fit: cover;
   border-radius: 4px;
-  margin-bottom: 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .card__title {
-  font-size: 20px;
-  line-height: 27.5px;
+  font-size: 18px;
   padding: 2px 0px;
-  margin-left: 10px;
-  margin-bottom: 4px;
+  margin-top: 32px;
+  margin-left: 26px;
+  margin-bottom: 24px;
 }
 .card__subtitle {
   font-size: 16px;
   line-height: 24px;
   padding: 2px 0px;
-  margin-left: 10px;
+  margin-left: 26px;
   margin-bottom: 4px;
 }
 
@@ -492,3 +495,13 @@ border-radius: 8px;
   height: 10px;
   margin: 2px 8px 0px;
 }
+
+
+ .no4{
+    margin: 120px 0px 0px 24px;
+ }
+
+ .no2image{
+   width: 636.87px;
+   height: 181px;
+ }
